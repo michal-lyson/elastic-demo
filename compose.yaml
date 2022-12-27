@@ -1,7 +1,7 @@
 services:
   elastic:
     image: elasticsearch:8.5.3
-    container_name: "elastic-query-bc-data"
+    container_name: "elastic-demo"
     environment:
       discovery.type: "single-node"
       xpack.security.enabled: false
